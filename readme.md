@@ -26,12 +26,16 @@ npm install
 
 ```bash
 node index.js
-```
+# atau
+node .
+# atau
+npm start
+````
 
 Atau langsung sertakan nomor WhatsApp:
 
 ```bash
-node index.js 628xxxxxxxxxx
+node . 628xxxxxxxxxx
 ```
 
 Jika belum ada session, bot akan meminta nomor WhatsApp dan menampilkan **pairing code** di terminal.
