@@ -1,4 +1,3 @@
-````md
 # WhatsApp Bot Base (Simple)
 
 Base WhatsApp bot yang **ringan, sederhana, dan mudah dipahami**.  
