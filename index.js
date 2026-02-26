@@ -48,7 +48,7 @@ async function launch() {
     let { state, saveCreds } = await useMultiFileAuthState(session);
     const Exp = makeWASocket({
       logger,
-      version: [2, 3000, 1027934701],
+      version: [2, 3000, await fetch("https://raw.githubusercontent.com/Rifza123/Experimental-Bell/refs/heads/master/version").then(a => a.text())],
       printQRInTerminal: false,
       browser: Browsers.ubuntu("Chrome"),
       auth: state,
