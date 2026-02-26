@@ -53,7 +53,7 @@ async function launch() {
       browser: Browsers.ubuntu("Chrome"),
       auth: state,
     });
-
+ 
     if (!Exp.authState.creds.registered) {
       const phoneNumber =
         number || (await question("Please type your WhatsApp number : "));
